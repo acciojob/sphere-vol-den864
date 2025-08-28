@@ -7,6 +7,7 @@ function volume_sphere() {
 		let v=(4/3)*Math.PI*Math.pow(r,3);
 		document.getElementById("volume").value=v.toFixed(4);
 	}  
+	return false;
 	
 } 
 
